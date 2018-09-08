@@ -64,8 +64,7 @@ const styles = {
   container: {
     flex: 1,
     flexDirection: 'column',
-    alignItems: 'center',
-    justifyContent: potrait ? 'center' : 'flex-start',
+    // justifyContent: potrait ? 'center' : 'flex-start',
     paddingTop: potrait ? 0 : 10,
   },
   imageContainer: {
@@ -75,10 +74,9 @@ const styles = {
     width: '100%',
   },
   padding: {
-    paddingHorizontal: 10,
+    paddingHorizontal: 40,
   },
   title: {
-    textAlign: 'center',
     fontSize: 26,
     color: '#fff',
     paddingBottom: 15,
@@ -87,7 +85,6 @@ const styles = {
     color: '#000',
   },
   subtitle: {
-    textAlign: 'center',
     fontSize: 16,
     color: 'rgba(255, 255, 255, 0.7)',
   },
