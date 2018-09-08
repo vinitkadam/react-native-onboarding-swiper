@@ -70,9 +70,10 @@ const Pagination = ({
       style={{
         height: bottomBarHeight,
         ...styles.container,
+        paddingHorizontal: 40,
       }}
     >
-      <View style={styles.buttonLeft}>{SkipButtonFinal}</View>
+      {/* <View style={styles.buttonLeft}>{SkipButtonFinal}</View> */}
       <Dots
         isLight={isLight}
         numPages={numPages}
@@ -122,8 +123,7 @@ const styles = {
   },
   buttonLeft: {
     width: 200,
-    flexShrink: 1,
-    alignItems: 'flex-start',
+
   },
   buttonRight: {
     width: 200,
@@ -132,6 +132,7 @@ const styles = {
   },
   dots: {
     flexShrink: 0,
+    alignItems: 'flex-start',
   },
 };
 
